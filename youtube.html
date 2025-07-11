@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Youtube</title>
+    <link rel="icon" href="images/youtube.png" type="image/png">
+    <link rel="stylesheet" href="youtube.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&Icons" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="navigation">
+        <!-- nav + header -->
+        <nav class="navbar">
+            <header>
+                <div class="navright">
+                    <div class="menubtn" id="menubtn">
+                        <span class="material-symbols-outlined">menu</span>
+                    </div>
+                    <i class='bx bxl-youtube' style="color:  #FF0000;"></i>
+                    <div class="text">
+                        <h3>Youtube</h3>
+                        <p>Pk</p>
+                    </div>
+                </div>
+                <div class="navcenter">
+                    <div class="myinput">
+                        <input type="text" name="search" placeholder="Search" class="myinput">
+                    </div>
+                    <div class="search">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+                <div class="navleft">
+                    <div class="navcreate">
+                        <i class='bx bx-plus ic'></i>
+                        <h3>Create</h3>
+                    </div>
+                    <div class="bell">
+                        <i class='bx bx-bell im'></i>
+                    </div>
+                    <div class="imglogo">
+                        <i class='bx bx-user-circle'></i>
+                    </div>
+                </div>
+            </header>
+        </nav>
+        <main class="mainmenu">
+            <!-- SIDEBAR -->
+            <aside class="sidebar">
+                <div class="link-container">
+                    <!-- home short and subscription -->
+                    <div class="link-section">
+                        <a href="" class="link-item" style="background-color: rgb(234, 234, 234);">
+                            <span class="material-symbols-outlined"style="" >home</span>Home
+                        </a> 
+                        <a href="" class="link-item">
+                            <span> <svg xmlns="http://www.w3.org/2000/svg" fill="black" focusable="false" aria-hidden="true"
+                                    style="pointer-events: none; font-size:2rem; margin-right: 0.6rem; display: inherit; width:20px; height: 20px;">
+                                    <path clip-rule="evenodd"
+                                        d="m7.61 15.719.392-.22v-2.24l-.534-.228-.942-.404c-.869-.372-1.4-1.15-1.446-1.974-.047-.823.39-1.642 1.203-2.097h.001L15.13 3.59c1.231-.689 2.785-.27 3.466.833.652 1.058.313 2.452-.879 3.118l-1.327.743-.388.217v2.243l.53.227.942.404c.869.372 1.4 1.15 1.446 1.974.047.823-.39 1.642-1.203 2.097l-.002.001-8.845 4.964-.001.001c-1.231.688-2.784.269-3.465-.834-.652-1.058-.313-2.451.879-3.118l1.327-.742Zm1.993 6.002c-1.905 1.066-4.356.46-5.475-1.355-1.057-1.713-.548-3.89 1.117-5.025a4.14 4.14 0 01.305-.189l1.327-.742-.942-.404a4.055 4.055 0 01-.709-.391c-.963-.666-1.578-1.718-1.644-2.877-.08-1.422.679-2.77 1.968-3.49l8.847-4.966c1.905-1.066 4.356-.46 5.475 1.355 1.057 1.713.548 3.89-1.117 5.025a4.074 4.074 0 01-.305.19l-1.327.742.942.403c.253.109.49.24.709.392.963.666 1.578 1.717 1.644 2.876.08 1.423-.679 2.77-1.968 3.491l-8.847 4.965ZM10 14.567a.25.25 0 00.374.217l4.45-2.567a.25.25 0 000-.433l-4.45-2.567a.25.25 0 00-.374.216v5.134Z"
+                                        fill-rule="evenodd"></path>
+                                </svg></span>Shorts
+                        </a>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">subscriptions</span>Subscribe
+                        </a>
+                    </div>
+                    <!-- you section -->
+                    <div class="section-seperator"></div>
+                    <div class="link-section">
+                        <h4 class="section-title">You</h4>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined"> history</span>History
+                        </a>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined"> playlist_play</span>Playlist
+                        </a>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined"> school</span>Your Course
+                        </a>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">schedule</span>Watch Later
+                        </a>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">thumb_up</span>Liked Videos
+                        </a>
+                    </div>
+                    <!-- subscription -->
+                    <div class="section-seperator"></div>
+                    <div class="link-section">
+                        <h4 class="section-title">Subscription</h4>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">account_circle</span>Code with Umar
+                        </a>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">account_circle</span>Design with Maheem
+                        </a>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">account_circle</span>Ilustrator's Corner
+                        </a>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">account_circle</span>Learning Data Structure
+                        </a>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">account_circle</span>Code with Thetha
+                        </a>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">account_circle</span>React with Umar
+                        </a>
+                    </div>
+                    <div class="section-seperator"></div>
+                    <div class="link-section">
+                        <h4 class="section-title">Explore</h4>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">local_fire_department</span>Trending
+                        </a>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">music_note</span>Music
+                        </a>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">stadia_controller</span>Gaming
+                        </a>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">newspaper</span>News Paper
+                        </a>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">trophy</span>Sports
+                        </a>
+                    </div>
+                    <div class="section-seperator"></div>
+                    <div class="link-section">
+                        <h4 class="section-title">More From youtube</h4>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">slideshow</span>Youtube Premium
+                        </a>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">play_circle</span>Youtube Music
+                        </a>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">animated_images</span>Youtube Kids
+                        </a>
+                        <div class="section-seperator"></div>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">settings</span>Setting
+                        </a>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">flag</span>Report History
+                        </a>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">help</span>Help
+                        </a>
+                        <a href="" class="link-item">
+                            <span class="material-symbols-outlined">feedback</span>Feed Back
+                        </a>
+                    </div>
+                </div>
+            </aside>
+            <!-- BUTTIONS -->
+            <div class="wrapp">
+                <div class="list">
+                    <button class="category-buton active">All</button>
+                    <button class="category-buton ">Node Js</button>
+                    <button class="category-buton ">JavaScript</button>
+                    <button class="category-buton ">Website</button>
+                    <button class="category-buton ">Music</button>
+                    <button class="category-buton ">Gaming</button>
+                    <button class="category-buton ">Data Communication</button>
+                    <button class="category-buton ">Coding</button>
+                    <button class="category-buton ">Next.js</button>
+                    <button class="category-buton ">React</button>
+                    <button class="category-buton ">Data Strcture</button>
+                    <button class="category-buton ">News</button>
+                    <button class="category-buton ">Mix</button>
+                    <button class="category-buton ">Vocals</button>
+                    <button class="category-buton ">Asian Tv</button>
+                    <button class="category-buton ">Tailwind</button>
+                    <button class="category-buton ">Css</button>
+                    <button class="category-buton ">Java</button>
+                    <button class="category-buton ">React</button>
+                    <button class="category-buton ">Python</button>
+                    <button class="category-buton ">Gaming</button>
+                    <button class="category-buton ">Streaming</button>
+                    <button class="category-buton ">Geo News</button>
+                    <button class="category-buton ">Indian Tv</button>
+                </div>
+                <!-- list in the midd in same section -->
+                <div class="videolist">
+                    <a href="#" class="card">
+                        <div class="thumbnail">
+                            <img src="images/g.jpg" alt="thumbnailogo" class="thumbnailcontent">
+                            <p class="duration">10.39</p>
+                        </div>
+                        <div class="videoinfo">
+                            <img src="images/gl1.jpg" alt="channel logo" class="cicons">
+                            <div class="videodetail">
+                                <h2 class="title">Top 10 Video games games for beginner</h2>
+                                <p class="cnal">Coding with Theta</p>
+                                <p class="view">27K . 4 months ago </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="thumbnail">
+                            <img src="images/a3.jpg" alt="thumbnailogo" class="thumbnailcontent">
+                            <p class="duration">67:39</p>
+                        </div>
+                        <div class="videoinfo">
+                            <img src="images/a4.jpg" alt="channel logo" class="cicons">
+                            <div class="videodetail">
+                                <h2 class="title">Demon Slayer</h2>
+                                <p class="cnal">Kimetsu No Yaiba</p>
+                                <p class="view">27M. 2 weeks ago </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="thumbnail">
+                            <img src="images/food1.jpg" alt="thumbnailogo" class="thumbnailcontent">
+                            <p class="duration">50:39</p>
+                        </div>
+                        <div class="videoinfo">
+                            <img src="images/fl.jpg" alt="channel logo" class="cicons">
+                            <div class="videodetail">
+                                <h2 class="title">Tasty Food</h2>
+                                <p class="cnal">Cooking with Biya</p>
+                                <p class="view">27K . 4 years ago </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="thumbnail">
+                            <img src="images/a7.jpg" alt="thumbnailogo" class="thumbnailcontent">
+                            <p class="duration">35:39</p>
+                        </div>
+                        <div class="videoinfo">
+                            <img src="images/c.jpg" alt="channel logo" class="cicons">
+                            <div class="videodetail">
+                                <h2 class="title">Illustraton using Adobe</h2>
+                                <p class="cnal">Designer's corner</p>
+                                <p class="view">27K . 4 months ago </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="card">
+                        <div class="thumbnail">
+                            <img src="images/react.jpg" alt="thumbnailogo" class="thumbnailcontent">
+                            <p class="duration">1:30:39</p>
+                        </div>
+                        <div class="videoinfo">
+                            <img src="images/r.png" alt="channel logo" class="cicons">
+                            <div class="videodetail">
+                                <h2 class="title">React js course</h2>
+                                <p class="cnal">Code with Umar</p>
+                                <p class="view">27M . 4 months ago </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="thumbnail">
+                            <img src="images/a2.jpg" alt="thumbnailogo" class="thumbnailcontent">
+                            <p class="duration">45:56</p>
+                        </div>
+                        <div class="videoinfo">
+                            <img src="images/alogo.jpg" alt="channel logo" class="cicons">
+                            <div class="videodetail">
+                                <h2 class="title">Paper flower diy using songle paper</h2>
+                                <p class="cnal">Create with amy</p>
+                                <p class="view">27K . 9 months ago </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="thumbnail">
+                            <img src="images/javas.jpg" alt="thumbnailogo" class="thumbnailcontent">
+                            <p class="duration">1:47:39</p>
+                        </div>
+                        <div class="videoinfo">
+                            <img src="images/javaslogo.jpg" alt="channel logo" class="cicons">
+                            <div class="videodetail">
+                                <h2 class="title">Learn Java Script in 30 days</h2>
+                                <p class="cnal">Coding with Theta</p>
+                                <p class="view">27m . 1 year ago </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="thumbnail">
+                            <img src="images/danceimg.jpg" alt="thumbnailogo" class="thumbnailcontent">
+                            <p class="duration">10:39</p>
+                        </div>
+                        <div class="videoinfo">
+                            <img src="images/dancelogo.jpg" alt="channel logo" class="cicons">
+                            <div class="videodetail">
+                                <h2 class="title">Dance with Joy</h2>
+                                <p class="cnal">Dance to enjoy</p>
+                                <p class="view">27K . 4 months ago </p>
+                            </div>
+                        </div>
+                        <a href="#" class="card">
+                            <div class="thumbnail">
+                                <img src="images/food3.jpg" alt="thumbnailogo" class="thumbnailcontent">
+                                <p class="duration">50:39</p>
+                            </div>
+                            <div class="videoinfo">
+                                <img src="images/fl.jpg" alt="channel logo" class="cicons">
+                                <div class="videodetail">
+                                    <h2 class="title">Tasty Food</h2>
+                                    <p class="cnal">Cooking with Biya</p>
+                                    <p class="view">27K . 4 years ago </p>
+                                </div>
+                            </div>
+                        </a>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="thumbnail">
+                            <img src="images/maheem.jpg" alt="thumbnailogo" class="thumbnailcontent">
+                            <p class="duration">30:39</p>
+                        </div>
+                        <div class="videoinfo">
+                            <img src="images/cl1.png" alt="channel logo" class="cicons">
+                            <div class="videodetail">
+                                <h2 class="title">Top 10 Illustrations</h2>
+                                <p class="cnal">Design with Maheem</p>
+                                <p class="view">29M . 4 months ago </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="thumbnail">
+                            <img src="images/so.jpg" alt="thumbnailogo" class="thumbnailcontent">
+                            <p class="duration">5:39</p>
+                        </div>
+                        <div class="videoinfo">
+                            <img src="images/s.jpg" alt="channel logo" class="cicons">
+                            <div class="videodetail">
+                                <h2 class="title">Mayyie Jinnah Sona </h2>
+                                <p class="cnal">Sing with Sara</p>
+                                <p class="view">27K . 4 months ago </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="thumbnail">
+                            <img src="images/sec.jpg" alt="thumbnailogo" class="thumbnailcontent">
+                            <p class="duration">01:07:09</p>
+                        </div>
+                        <div class="videoinfo">
+                            <img src="images/e.jpg" alt="channel logo" class="cicons">
+                            <div class="videodetail">
+                                <h2 class="title">Secure your computer</h2>
+                                <p class="cnal">Eagle's Security sector</p>
+                                <p class="view">27K . 4 months ago </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="thumbnail">
+                            <img src="images/death.jpg" alt="thumbnailogo" class="thumbnailcontent">
+                            <p class="duration">01:30:39</p>
+                        </div>
+                        <div class="videoinfo">
+                            <img src="images/deathlogo.jpg" alt="channel logo" class="cicons">
+                            <div class="videodetail">
+                                <h2 class="title">Death Note Story</h2>
+                                <p class="cnal">Story teller dairies</p>
+                                <p class="view">27M . 4 months ago </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="thumbnail">
+                            <img src="images/library.jpg" alt="thumbnailogo" class="thumbnailcontent">
+                            <p class="duration">50:09</p>
+                        </div>
+                        <div class="videoinfo">
+                            <img src="images/librarylogo.jpg" alt="channel logo" class="cicons">
+                            <div class="videodetail">
+                                <h2 class="title">Discover world of fantacy</h2>
+                                <p class="cnal">Travel tweets</p>
+                                <p class="view">27K . 4 months ago </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="thumbnail">
+                            <img src="images/freefire.jpg" alt="thumbnailogo" class="thumbnailcontent">
+                            <p class="duration">10:30:39</p>
+                        </div>
+                        <div class="videoinfo">
+                            <img src="images/flogo.jpg" alt="channel logo" class="cicons">
+                            <div class="videodetail">
+                                <h2 class="title">Free Fire live Stream</h2>
+                                <p class="cnal">Gaming pro</p>
+                                <p class="view">67M . 4 months ago </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="youtube.js"></script>
+</body>
+
+</html>
